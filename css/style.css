@@ -1,0 +1,396 @@
+/* ここから下に記載していく */
+
+/* ヘッダー */
+.wrap {
+	width: 1366px;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+
+h1 {
+	float: left;
+	width: 30%;
+	line-height: 100px;
+	margin: 0;
+}
+
+img {
+	line-height: 100px;
+	vertical-align: middle;
+	width: 100%;
+	margin-left: 50px;
+}
+
+.header-menu {
+	float: right;
+	line-height: 100px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+/* メインコンテンツ */
+.mainvisual {
+	/* background: pink; */
+	background-image: url('../img/mainbg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.mainvisual h1 {
+	font-size: 30px;
+	color: white;
+	padding-top: 100px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	color: white;
+	padding-top: 100px;
+}
+.mainvisual p {
+	font-size: 25px;
+	color: white;
+	padding-top: 100px;
+}
+
+.content h2 {
+	color: #ffd61a;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.title {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.explain1 {
+	margin-top: 60px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.explain2 {
+	text-align: center;
+	font-size: 16px;
+}
+
+.explain3 {
+	margin-top: 40px;
+	padding-bottom: 40px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.explain4 {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 40px;
+}
+
+.explain5 {
+	margin-top: 40px;
+	margin-bottom: 80px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.imgBox {
+	display: flex;
+	width: 100％;
+}
+
+h4 {
+	margin-top: 60px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.section {
+	margin-bottom: 30px;
+	font-size: 16px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+/* course */
+.course-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 24px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+}
+
+.course-text1 p {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+h4 {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 120px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.course-text2 p {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 40px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+.course-text3 p {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.course-img {
+	width: 48%;
+	height: auto;
+	margin-left: 3.5%;
+}
+
+.course-items:nth-child(even) {
+	flex-direction: row-reverse;
+}
+.course-items:nth-child(even) .text {
+	text-align: right;
+}
+.course-items:nth-child(even) .pict {
+	margin-left: 0;
+	margin-right: 3.5%;
+}
+
+/* NEWS */
+
+.news-wrap {
+	/* display: flex; */
+}
+
+.news-title h5 {
+	margin-top: 60px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.news-title p {
+	margin-bottom: 60px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.news_list {
+	justify-content: space-between;
+	width: 960px;
+	display: flex;
+	/* 間の幅30px分をプラス */
+	margin: auto;
+}
+
+.news_list-item {
+	margin-right: 30px;
+	margin-top: 90px;
+}
+
+.news_item_pic {
+	margin-bottom: 30px;
+}
+
+.news_list-item-day {
+	font-size: 16px;
+	margin-bottom: 24px;
+	margin-right: 30px;
+	margin-left: 50px;
+}
+
+.news_list_item-text {
+	margin-bottom: 60px;
+	margin-left: 50px;
+}
+
+.news_list-item:hover {
+	opacity: 0.6;
+	transition-duration: 0.3s;
+}
+
+/* moreボタン */
+
+.btn-wrap {
+	margin: 20px 60px;
+	background-color: #ffd61a;
+	width: 300px;
+	height: 60px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	padding: 20px 24px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+	font-size: 18px;
+}
+
+.btn:hover {
+	opacity: 1;
+}
+
+/* Googleマップ */
+.map-wrap {
+	background: #fafafa;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-top: 60px;
+}
+
+p {
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+
+.map-item-text {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	margin: 0 auto;
+	width: 1366px;
+}
+.news_list_item-text table tr {
+	text-align: center;
+}
+
+/* コンタクトフォーム */
+h4 {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+p {
+	font-size: 16px;
+}
+
+form {
+	width: 460px;
+	margin: 0 auto;
+}
+.item {
+	overflow: hidden;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.item-check {
+}
+
+.label {
+	float: left;
+	margin-right: 20px;
+	width: 135px;
+	border-left: solid 3px #e0505d;
+	padding-left: 10px;
+}
+
+span.wpcf7-label {
+	display: block;
+}
+
+.inputs {
+	float: left;
+	width: 300px;
+}
+
+input[type='text'],
+input[type='email'] {
+	border: solid 1px #aaa;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+textarea {
+	border: solid 1px #aaa;
+	border-radius: 5px;
+	padding: 10px;
+	height: 160px;
+	font-size: 15px;
+}
+.btn-area {
+	text-align: center;
+}
+
+input[type='submit'] {
+	background: #ffd61a;
+	border: none;
+	color: white;
+	font-size: 16px;
+	padding: 10px 20px;
+	margin: 30px;
+	margin-bottom: 140px;
+	width: 300px;
+}
+
+footer {
+	background-color: #707070;
+	height: 60px;
+}
+
+footer p {
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
